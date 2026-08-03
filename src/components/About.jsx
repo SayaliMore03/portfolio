@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="scroll-mt-20 max-w-6xl mx-auto px-6 pt-3 pb-16"
+      className="scroll-mt-20 max-w-6xl mx-auto px-6 pt-4 pb-16 mb-16"
     >
       <h2 className="text-2xl md:text-3xl font-bold mb-5">
         About <span className="text-accent">Me</span>

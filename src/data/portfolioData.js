@@ -58,17 +58,27 @@ export const experience = [
   },
 ];
 
-export const skills = {
-  Languages: ["Python", "SQL"],
-  "Visualization & BI": ["Power BI", "Excel (Power Query, DAX)"],
-  "Libraries & Tools": ["Pandas", "Scikit-learn", "SHAP", "Streamlit", "MySQL"],
-  Concepts: [
-    "Window Functions",
-    "CTEs",
-    "Stored Procedures",
-    "Data Modelling",
-    "EDA",
-    "Machine Learning",
+export const skillsData = {
+  coreSkills: [
+    { name: "SQL", details: "joins, CTEs, window functions, stored procedures" },
+    { name: "Python", details: "Pandas, NumPy, Scikit-learn" },
+    { name: "Power BI", details: "DAX, Power Query, dashboard development" },
+    { name: "Excel", details: "Power Query, Pivot Tables, advanced formulas" },
+    { name: "MySQL", details: "" },
+    { name: "Machine Learning", details: "" },
+    { name: "EDA", details: "Exploratory Data Analysis" },
+    { name: "Data Cleaning & Transformation", details: "" },
+    { name: "Data Visualization", details: "" },
+    { name: "Statistics", details: "basic to intermediate" },
+  ],
+  librariesAndTools: [
+    { name: "Pandas" },
+    { name: "NumPy" },
+    { name: "Scikit-learn" },
+    { name: "SHAP" },
+    { name: "Streamlit" },
+    { name: "Git & GitHub" },
+    { name: "Jupyter Notebook" },
   ],
 };
 

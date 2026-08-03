@@ -2,7 +2,10 @@ import { certificates } from "../data/portfolioData";
 
 export default function Certificates() {
   return (
-    <section id="certificates" className="scroll-mt-20 max-w-6xl mx-auto px-6 py-16">
+    <section
+      id="certificates"
+      className="scroll-mt-20 max-w-6xl mx-auto px-6 pt-6 pb-16 mb-16"
+    >
       <h2 className="text-3xl font-bold mb-8">
         <span className="text-accent">Certificates</span>
       </h2>
