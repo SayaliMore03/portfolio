@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="scroll-mt-20 bg-slate-50 dark:bg-white/5 py-16 min-h-[calc(100vh-5rem)] flex flex-col justify-center"
+      className="scroll-mt-20 bg-slate-50 dark:bg-white/5 py-16"
     >
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold mb-10">

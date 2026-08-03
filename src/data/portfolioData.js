@@ -7,11 +7,9 @@ export const profile = {
   roles: ["Data Analyst", "Business Analyst"],
   tagline:
     "Recent B.Tech graduate in AI & Data Science, turning raw data into decisions for real business impact.",
-  about: `I'm a recent B.Tech graduate in AI & Data Science from MIT College of
-  Engineering (9.29 CGPA). I enjoy working through the full data lifecycle —
-  cleaning messy datasets, writing efficient SQL, building interpretable ML
-  models, and shipping dashboards people actually use. Currently looking for
-  Data Analyst roles where I can bring that end-to-end thinking to a team.`,
+  about: `I'm a Data Analyst passionate about transforming complex datasets into actionable business insights. I enjoy solving real-world problems using SQL, Python, Excel, and Power BI—from cleaning messy data and uncovering trends to building dashboards that support better decision-making.
+
+Through personal projects, I've worked on customer churn prediction, supply chain analytics, sales analysis, and KPI reporting. I'm currently seeking opportunities where I can help organizations make smarter, data-driven decisions while continuing to grow as an analyst.`,
   location: "Pune, Maharashtra, India",
   email: "sayalimore03@example.com", // update with real email
   resumeLink: "/resume.pdf", // drop your resume file in /public
@@ -23,11 +21,21 @@ export const profile = {
   quote: "Empowering ideas with a blend of creativity, logic, and dedication ❤️",
 };
 
+export const atAGlance = [
+  { icon: "📍", text: "Pune, Maharashtra" },
+  { icon: "🎓", text: "B.Tech AI & Data Science" },
+  { icon: "📊", text: "Data Analyst" },
+  { icon: "💼", text: "2 Internships" },
+  { icon: "📈", text: "5+ Analytics Projects" },
+  { icon: "📧", text: "Available for Full-Time" },
+];
+
 export const education = {
-  degree: "B.Tech, AI & Data Science",
+  degree: "Bachelor of Technology",
+  field: "Artificial Intelligence & Data Science",
   college: "MIT College of Engineering",
-  cgpa: "9.29 CGPA",
-  graduated: "July 2026",
+  cgpa: "CGPA: 9.29/10",
+  graduated: "Graduated: 2026",
 };
 
 export const experience = [
