@@ -14,7 +14,7 @@ export default function Hero() {
             Hello ,
           </h3>
 
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold whitespace-nowrap text-gray-800 dark:text-white">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 dark:text-white">
             <span>I'm</span>{" "}
             <span className="text-[#f09b11] font-bold">
               {profile.name}
@@ -22,7 +22,7 @@ export default function Hero() {
           </h1>
 
           {/* Typing effect */}
-          <div className="w-[320px] sm:w-[420px] h-[48px] flex items-center my-2">
+          <div className="w-full max-w-[420px] min-h-[48px] flex items-center my-2">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-slate-100">
               <Typewriter words={profile.roles} />
             </h2>
