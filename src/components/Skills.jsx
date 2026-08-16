@@ -208,7 +208,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="scroll-mt-20 max-w-6xl mx-auto px-6 pt-3 pb-24"
+      className="scroll-mt-20 min-h-[calc(100vh-5rem)] max-w-6xl mx-auto px-6 pt-6 pb-12 flex flex-col justify-start"
     >
       {/* Category Header */}
       <div className="mb-6">

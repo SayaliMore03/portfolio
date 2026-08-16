@@ -7,7 +7,7 @@ export default function Navbar({ isDark, setIsDark }) {
   return (
     <header className="sticky top-0 z-50 h-20 flex items-center bg-white/95 dark:bg-[#0a1626]/95 backdrop-blur border-b border-slate-100 dark:border-white/10 shadow-xs">
       <nav className="w-full max-w-6xl mx-auto flex items-center justify-between px-6">
-        <a href="#home" className="text-2xl font-bold text-accent tracking-tight">
+        <a href="#home" className="text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight hover:text-amber-600 dark:hover:text-amber-400 transition-colors">
           {profile.name}
         </a>
 

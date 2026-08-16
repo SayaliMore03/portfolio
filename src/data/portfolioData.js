@@ -11,14 +11,14 @@ export const profile = {
 
 Through personal projects, I've worked on customer churn prediction, supply chain analytics, sales analysis, and KPI reporting. I'm currently seeking opportunities where I can help organizations make smarter, data-driven decisions while continuing to grow as an analyst.`,
   location: "Pune, Maharashtra, India",
-  email: "sayalimore03@example.com", // update with real email
+  email: "sayalimore2003@gmail.com",
   resumeLink: "/resume.pdf", // drop your resume file in /public
   socials: {
-    linkedin: "https://linkedin.com/in/sayalimore03",
+    linkedin: "https://www.linkedin.com/in/sayali-more12/",
     github: "https://github.com/SayaliMore03",
-    credly: "https://www.credly.com/users/sayali-more",
   },
   quote: "Empowering ideas with a blend of creativity, logic, and dedication ❤️",
+  image: "/profile.jpg",
 };
 
 export const atAGlance = [
@@ -31,11 +31,11 @@ export const atAGlance = [
 ];
 
 export const education = {
-  degree: "Bachelor of Technology",
+  degree: "Bachelor of Technology (B.Tech)",
   field: "Artificial Intelligence & Data Science",
-  college: "MIT College of Engineering",
-  cgpa: "CGPA: 9.29/10",
-  graduated: "Graduated: 2026",
+  college: "MIT College of Engineering, Chhatrapati Sambhajinagar",
+  cgpa: "CGPA: 9.33/10",
+  graduated: "Nov 2022 – July 2026",
 };
 
 export const experience = [
@@ -84,16 +84,46 @@ export const skillsData = {
 
 export const certificates = [
   {
-    name: "AI Foundations Associate",
-    issuer: "Oracle",
+    id: "oracle-ai",
+    name: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
+    shortTitle: "OCI 2025 AI Foundations Associate",
+    issuer: "Oracle University",
+    issuerType: "Oracle",
+    issueDate: "Oct 2025",
+    validity: "Valid until Oct 2027",
+    credentialId: "102993027OCI25AICFA",
+    verifyUrl: "",
+    description:
+      "Recognized by Oracle Corporation for demonstrating foundational knowledge in Artificial Intelligence, Machine Learning concepts, Generative AI models, and Oracle Cloud Infrastructure AI Services.",
+    skills: ["Oracle Cloud (OCI)", "Generative AI", "Machine Learning", "AI Services"],
   },
   {
-    name: "Excel Basics for Data Analysis",
-    issuer: "Coursera",
+    id: "microsoft-power-bi",
+    name: "Microsoft Power BI Data Analyst Professional Certificate",
+    shortTitle: "Microsoft Power BI Data Analyst",
+    issuer: "Microsoft & Coursera",
+    issuerType: "Microsoft",
+    issueDate: "Jul 2026",
+    credentialId: "4NT8YCDE89P2",
+    verifyUrl: "https://coursera.org/verify/professional-cert/4NT8YCDE89P2",
+    description:
+      "Completed 8-course Professional Certificate covering data preparation, Power Query ETL, star schema data modeling, advanced DAX calculations, interactive reporting, and Microsoft PL-300 exam prep.",
+    skills: ["Power BI", "DAX", "Data Modeling", "Power Query", "Excel", "PL-300"],
+    coursesCount: "8 Courses",
   },
   {
-    name: "Data Science with Python",
-    issuer: "Udemy",
+    id: "udemy-ds-ml",
+    name: "2025 Master class on Data Science using Python A-Z for ML",
+    shortTitle: "Data Science using Python A-Z for ML",
+    issuer: "Udemy (Toppers Bootcamp)",
+    issuerType: "Udemy",
+    issueDate: "Jul 2025",
+    credentialId: "UC-f376d987-e47e-4327-ad36-15b0ab248ef0",
+    verifyUrl: "https://ude.my/UC-f376d987-e47e-4327-ad36-15b0ab248ef0",
+    description:
+      "Hands-on masterclass covering end-to-end Data Science & Machine Learning pipelines using Python, Pandas, NumPy, Scikit-Learn, data wrangling, and predictive modeling.",
+    skills: ["Python", "Data Science", "Machine Learning", "Pandas", "Scikit-Learn"],
+    duration: "6.5 Hours",
   },
 ];
 
@@ -101,47 +131,46 @@ export const projects = [
   {
     title: "E-Commerce Customer Churn Prediction",
     description:
-      "End-to-end churn pipeline on a 5,630-row e-commerce dataset — cleaning, EDA, SMOTE balancing, and model comparison. Random Forest won at 99.7% ROC-AUC, explained with SHAP, and shipped as a live Streamlit app.",
-    tools: ["Python", "Scikit-learn", "SHAP", "Streamlit", "MySQL"],
+      "Built an end-to-end churn prediction system for a 5,630-customer e-commerce dataset, identifying at-risk customers before they leave. Random Forest achieved 99.7% ROC-AUC, catching 179 of 190 churners with just 13 false alarms. Deployed as a live Streamlit app with real-time risk scoring and personalized retention recommendations.",
+    tools: ["Python", "Scikit-learn", "XGBoost", "SHAP", "Streamlit", "SMOTE"],
     demoLink: "https://sayalimore03-ecommerce-churn-prediction.streamlit.app",
     githubLink: "https://github.com/SayaliMore03",
-    metric: "99.7% ROC-AUC",
-  },
-  {
-    title: "SQL + Power BI: DataCo Supply Chain Analysis",
-    description:
-      "Analysis of a ~180K-row supply chain dataset — normalized into six tables in MySQL, cleaned for PII and outliers, and visualized in a four-page Power BI dashboard.",
-    tools: ["MySQL", "Power BI", "SQL"],
-    demoLink: "",
-    githubLink: "https://github.com/SayaliMore03",
-    metric: "180K rows",
-  },
-  {
-    title: "Credit Card Transaction Insights",
-    description:
-      "Transaction-level analysis identifying spend patterns and anomalies, visualized through an interactive Power BI dashboard.",
-    tools: ["MySQL", "Power BI"],
-    demoLink: "",
-    githubLink: "https://github.com/SayaliMore03",
-    metric: "",
-  },
-  {
-    title: "Vendor Sales Analysis",
-    description:
-      "Vendor performance analysis combining SQL queries with Power BI visuals to surface purchasing and sales trends.",
-    tools: ["Python", "MySQL", "Power BI"],
-    demoLink: "",
-    githubLink: "https://github.com/SayaliMore03",
-    metric: "",
+    metrics: ["99.7% ROC-AUC", "94.2% Recall", "5,630 records"],
+    metric: "99.7% ROC-AUC · 94.2% Recall · 5,630 records",
+    image: "",
   },
   {
     title: "AdventureWorks Sales Dashboard",
     description:
-      "Sales performance dashboard built entirely in Excel using Power Query for transformation and DAX for measures.",
-    tools: ["Excel", "Power Query", "DAX"],
+      "Built an end-to-end Retail Sales & Performance BI solution by integrating 7 raw datasets using Power Query, Power Pivot, and DAX. Designed a 3-dashboard Hub-and-Spoke reporting system with advanced KPI tracking, sales performance analysis, product profitability insights, and interactive reporting to support executive decision-making.",
+    tools: ["Excel", "Power Query", "Power Pivot", "DAX", "Data Modeling"],
     demoLink: "",
     githubLink: "https://github.com/SayaliMore03",
-    metric: "",
+    metrics: ["7 Data Sources", "3 Dashboards", "10+ DAX Measures", "Galaxy Schema"],
+    metric: "7 Data Sources · 3 Dashboards · 10+ DAX Measures · Galaxy Schema",
+    image: "/projects/adventureworks.png",
+  },
+  {
+    title: "Vendor Sales Analysis",
+    description:
+      "Developed a vendor performance analytics platform using Python, SQL, MySQL and Power BI to analyze $441M in sales. Built an automated ETL pipeline, performed SQL-driven EDA, and created an interactive dashboard for vendor performance, profitability, and inventory optimization.",
+    tools: ["Python", "SQL", "Power BI", "MySQL", "Pandas", "Jupyter"],
+    demoLink: "",
+    githubLink: "https://github.com/SayaliMore03",
+    metrics: ["$441M Sales", "$134M Profit", "38.7% Margin", "$2.71M Unsold"],
+    metric: "$441M Sales · $134M Profit · 38.7% Margin · $2.71M Unsold",
+    image: "",
+  },
+  {
+    title: "Credit Card Transaction Insights",
+    description:
+      "Built an interactive Credit Card Transaction Insights Dashboard using SQL and Power BI to analyze $435.8M in revenue across 38.6K customer accounts. Developed a structured data model and executive dashboard to monitor customer demographics, card category performance, transaction trends, geographic insights, and key financial KPIs for business decision-making.",
+    tools: ["SQL", "Power BI", "ETL", "Data Modeling", "Dashboard"],
+    demoLink: "",
+    githubLink: "https://github.com/SayaliMore03",
+    metrics: ["$435.8M Revenue", "38.6K Customers", "12.05% Interest", "4 Card Categories"],
+    metric: "$435.8M Revenue · 38.6K Customers · 12.05% Interest · 4 Card Categories",
+    image: "/projects/credit-card.png",
   },
 ];
 
@@ -149,6 +178,6 @@ export const navLinks = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
-  { label: "Certificates", href: "#certificates" },
   { label: "Projects", href: "#projects" },
+  { label: "Certificates", href: "#certificates" },
 ];
