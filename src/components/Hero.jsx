@@ -10,9 +10,9 @@ export default function Hero() {
       <div className="w-full grid md:grid-cols-2 gap-10 items-center">
         {/* Left Section - Text & Social Links */}
         <div className="w-full text-left">
-          <h3 className="text-xl md:text-2xl font-semibold mb-2 text-slate-700 dark:text-slate-300">
+          <p className="text-xl md:text-2xl font-semibold mb-2 text-slate-700 dark:text-slate-300">
             Hello ,
-          </h3>
+          </p>
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 dark:text-white">
             <span>I'm</span>{" "}
